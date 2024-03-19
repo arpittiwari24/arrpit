@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon"  href="favicon.ico" />
+    <link rel="icon"  href="public/favicon.ico" />
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,32 +14,20 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <!-- <div id="root"></div> -->
     <script defer src="/_vercel/insights/script.js"></script>
-    <!-- <script type="module" src="/src/main.jsx"></script> -->
-<!-- Navbar -->
-    <div>
-      <div class="navbar">
-    <div class="flex-1">
-      <h3 class="text-4xl text-white font-bold">Arrpit</h3>
-    </div>
-    <div class="flex-none">
-    </div>
-  </div>
-      </div>
 
 <!-- Hero -->
 
 <div>
   <div class="hero pt-14 pb-24 max-sm:pb-16 max-sm:pt-16 ">
-<div class="hero-content flex-col md:flex-row-reverse  px-8 ">
+<div class="hero-content flex items-center justify-center px-8 ">
 <div >
-  <img src="/public/buffalo.svg" alt="Buffalo" class=" max-sm:w-48  max-w-sm  rounded-full  " />
+  <!-- <img src="/public/buffalo.svg" alt="Buffalo" class=" max-sm:w-48  max-w-sm  rounded-full  " /> -->
   </div>
-  <div class='px-6 '>
-    <h1 class="text-white max-sm:text-5xl text-7xl font-bold font-serif">Hello !!</h1>
-    <p class="text-white text-3xl py-10 max-sm:text-xl">I am Arrpit Tiwari , a Full-Stack Developer. I can write your code faster than a hummingbird on Red Bull. Just don't ask me to explain it in plain English.</p>
-    <a href="https://drive.google.com/file/d/1epMVvyuJ8qQiMnQzLDkbh4tZfPMecivl/view?usp=sharing" target="_blank"><button  class="btn btn-warning animate-bounce hover:btn-success">View  Resume</button></a>
+  <div class='px-6 text-center'>
+    <!-- <h1 class="text-white max-sm:text-5xl text-7xl font-bold font-serif">Hello !!</h1> -->
+    <p class="text-white text-2xl py-10 max-sm:text-xl">I am Arrpit, an engineering undergrad building products for the web. When I am not building, I am either with my mom or playing any sport. If you have something to share with me, message me on twitter, linkedin or email. I don't have anything else to write, so stop reading and scroll below.</p>
+    <a href="https://drive.google.com/file/d/1epMVvyuJ8qQiMnQzLDkbh4tZfPMecivl/view?usp=sharing" target="_blank"><button  class="btn btn-warning hover:btn-success">View  Resume</button></a>
   </div>
 </div>
 </div>
@@ -47,7 +35,7 @@
 
   <!-- Experience -->
 
-  <section  class="flex flex-col gap-4  max-sm:px-2 px-20 py-12 max-sm:py-6 ">
+  <!-- <section  class="flex flex-col gap-4  max-sm:px-2 px-20 py-12 max-sm:py-6 ">
     <h1 class=" font-bold font-serif text-5xl underline pt-0 pb-20 text-center max-sm:text-4xl">Experience</h1>
      <div class="flex flex-col gap-4">
        <div class="flex justify-between items-center">
@@ -73,7 +61,7 @@ scratch, showcasing full-stack development skills.
 intern
          </li>
          <li class="py-2">
-         • Implemented robust backend functionalities using Node.js and Express.js, including database management with
+          Implemented robust backend functionalities using Node.js and Express.js, including database management with
 MongoDB.
          </li>
          <li class="py-2">
@@ -82,7 +70,7 @@ improvement.
          </li>
        </ul>
      </div>
-   </section>
+   </section> -->
 
    <!-- Projects -->
 
@@ -93,66 +81,68 @@ improvement.
 
    <div class="flex flex-wrap justify-center items-center gap-4">
 
-    <div class="card card-compact max-sm:w-72 w-96 shadow-xl">
-      <figure><img src="/public/petite.jpg" alt="Buffalo" alt="Shoes" /></figure>
+    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-black border border-white">
+      <figure><img src="/public/tidyl.webp" alt="Buffalo" alt="Shoes" /></figure>
       <div class="card-body">
         <h2 class="card-title">TidyL</h2>
-        <p></p>
-        <div class="card-actions justify-end">
-         <a href="https://tidyl.vercel.app/" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
-         <!-- <a href="https://github.com/arpittiwari24/petite" target="_blank"><button class="btn btn-ghost outline">Code</button></a> -->
-        </div>
+        <p>Tech Stack - NextJs, NodeJs, Tailwindcss, ExpressJs, MongoDB, Supabase</p>
+        <div class="card-actions justify-center pt-4">
+    <a href="https://tidyl.vercel.app" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
+    <a href="https://github.com/arpittiwari24/todo-frontend" target="_blank"><button class="btn btn-ghost outline">Code</button></a>
+  </div>
       </div>
       </div>
- <div class="card card-compact max-sm:w-72 w-96 shadow-lg">
-<figure><img src="/public/Lyricist.jpg" alt="Buffalo" alt="Shoes" /></figure>
-<div class="card-body">
-  <h2 class="card-title">Lyricist</h2>
-  <p></p>
-  <div class="card-actions justify-end ">
-  <a href="https://lyricist-ten.vercel.app/" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
-   <a href="https://github.com/arpittiwari24/Lyricist" target="_blank"><button class="btn btn-ghost outline">Code</button></a>
-  </div>
-</div>
-</div>
 
-<div class="card card-compact max-sm:w-72 w-96 shadow-xl">
-<figure><img src="/public/poshan.jpg" alt="Buffalo" alt="Shoes" /></figure>
+      <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-black border border-white">
+<figure><img src="/public/promogenie.webp" alt="Buffalo" alt="Shoes" /></figure>
 <div class="card-body">
-  <h2 class="card-title">Poshan</h2>
-  <p></p>
-  <div class="card-actions justify-end">
-  <a href="https://poshan.in" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
-  </div>
-</div>
-</div>
-
-
-<div class="card card-compact max-sm:w-72 w-96 shadow-xl">
-<figure><img src="/public/todo.jpg" alt="Buffalo" alt="Shoes" /></figure>
-<div class="card-body">
-  <h2 class="card-title">TodoApp</h2>
-  <p></p>
-  <div class="card-actions justify-end">
-    <a href="https://todo-frontend-mu-two.vercel.app/" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
+  <h2 class="card-title text-white">Promogenie</h2>
+  <p class="">Tech Stack - NextJs, NodeJs, Tailwindcss, ExpressJs, MongoDB, Supabase, Zustand</p>
+  <div class="card-actions justify-center pt-4">
+    <a href="https://promogenie.xyz" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
     <a href="https://github.com/arpittiwari24/todo-frontend" target="_blank"><button class="btn btn-ghost outline">Code</button></a>
   </div>
 </div>
 </div>
+
+ <div class="card card-compact max-sm:w-72 w-96 shadow-lg bg-black border border-white">
+<figure><img src="/public/lyricistt.webp" alt="Buffalo" alt="Shoes" /></figure>
+<div class="card-body">
+  <h2 class="card-title">Lyricist</h2>
+  <p>Tech Stack - ReactJs, NodeJs, Tailwindcss, ExpressJs, Gemini</p>
+ <div class="card-actions justify-center pt-4">
+    <a href="https://lyricist-ten.vercel.app" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
+    <a href="https://github.com/arpittiwari24/lyricist" target="_blank"><button class="btn btn-ghost outline">Code</button></a>
+  </div>
+</div>
+</div>
+
+<div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-black border border-white">
+<figure><img src="/public/poshan.webp" alt="Buffalo" alt="Shoes" /></figure>
+<div class="card-body">
+  <h2 class="card-title text-white">Poshan</h2>
+  <p>Tech Stack - ReactJs, NodeJs, Tailwindcss, ExpressJs, MongoDB</p>
+  <div class="card-actions justify-center pt-4">
+    <a href="https://poshan.in" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
+    <!-- <a href="https://github.com/arpittiwari24/todo-frontend" target="_blank"><button class="btn btn-ghost outline">Code</button></a> -->
+  </div>
+</div>
+</div>
+
   </div>
 
   <!-- Contact -->
 
   <div>
-    <div class='py-10'>
+    <div class='py-8'>
       <h1 class="text-white text-center text-3xl md:text-5xl font-bold py-10 underline">Connect With Me</h1>
     </div>
-    <div class="px-8 text-center">
-        <a href="https://twitter.com/arrpitttwts" target="_blank" class="text-7xl px-8 text-black hover:animate-pulse"><i class="fa-brands fa-twitter"></i></a>
-        <a href="https://github.com/arpittiwari24" target="_blank" class="text-7xl px-8 text-black hover:animate-pulse"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/arrpit-tiwari-0447b5228/" target="_blank" class="text-7xl px-8 text-black hover:animate-pulse"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/arrpit.tiwari/" target="_blank" class="text-7xl px-8 text-black hover:animate-pulse"><i class="fa-brands fa-instagram"></i></a>
-        <a href="mailto:atofficial2410@gmail.com" target="_blank" class="text-7xl px-8 text-black hover:animate-pulse"><i class="fa-solid fa-envelope"></i></a>
+    <div class="max-sm:flex max-sm:flex-wrap max-sm:items-center max-sm:justify-center text-center text-white pb-6">
+        <a href="https://twitter.com/arrpitttwts" target="_blank" class="text-5xl px-8  hover:animate-pulse"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://github.com/arpittiwari24" target="_blank" class="text-5xl px-8  hover:animate-pulse"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/arrpit-tiwari-0447b5228/" target="_blank" class="text-5xl px-8 hover:animate-pulse"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/arrpit.tiwari/" target="_blank" class="text-5xl px-8  hover:animate-pulse"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:atofficial2410@gmail.com" target="_blank" class="text-5xl px-8  hover:animate-pulse"><i class="fa-solid fa-envelope"></i></a>
     </div>
   </div>
 
