@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="">
 
 <head>
   <meta charset="UTF-8" />
@@ -11,7 +11,6 @@
   <meta name="description" content="This is the portfolio website of Arrpit Tiwari, a full stack developer" />
   <meta name="keywords"
     content="Arrpit, Arrpit Tiwari, Arpit, Arpit Tiwri, Portfolio, Full Stack Developer , Web Developer, Freelancer, Web Developer in Delhi, India" />
-  <script src="https://kit.fontawesome.com/2f9251257a.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -27,13 +26,13 @@
     <div class="hero-content flex items-center justify-center px-8">
       <div class='px-6 text-center'>
         <div>
-          <p class="text-white text-2xl py-10 max-sm:text-xl">
-            I am Arrpit, an engineering undergrad building products that people (I think) would love to use. When I am
-            not building, I am either with my mom or playing any sport. If you have something to share with me, message
+          <p class="text-2xl py-10 max-sm:text-xl font-semibold">
+            I am Arrpit, an engineering undergrad building products that (I think) people would love to use. When I am
+            not building, I am either with my family or playing any sport. If you have something to share with me, message
             me on Twitter, LinkedIn, or email. I don't have anything else to write, so stop reading and scroll below.
           </p>
-          <a href="https://drive.google.com/file/d/1epMVvyuJ8qQiMnQzLDkbh4tZfPMecivl/view?usp=sharing" target="_blank">
-            <button class="btn btn-warning btn-outline">View Resume</button>
+          <a href="https://drive.google.com/file/d/1BFMLNBWh-9HvvRfVEIUJU8gTou_skxg1/view?usp=sharing" target="_blank">
+            <button class="btn btn-success btn-outline">View Resume</button>
           </a>
         </div>
       </div>
@@ -82,18 +81,29 @@ improvement.
   <!-- Projects -->
 
   <div class="text-center">
-    <h1 class=" font-bold font-serif text-5xl underline pt-0 pb-20 max-sm:text-4xl">Projects</h1>
-    <Projects />
+    <h1 class=" font-bold font-serif text-4xl underline pt-0 pb-20 max-sm:text-4xl">Projects</h1>
   </div>
 
   <div class="flex flex-wrap justify-center items-center gap-4">
 
-
-
-    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-black border border-white">
-      <figure><img src="/public/promogenie.webp" alt="Buffalo" alt="Shoes" /></figure>
+    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-transparent border border-black">
+      <figure><img loading="lazy" src="/public/one-buck.png" alt="Buffalo" alt="Shoes" /></figure>
       <div class="card-body">
-        <h2 class="card-title text-white">Promogenie (Content Generator)</h2>
+        <h2 class="card-title">OneBuck</h2>
+        <p>Tech Stack - NextJs, Typescript, Tailwindcss, LemonSqueezy, Supabase </p>
+        <div class="card-actions justify-center pt-4">
+          <a href="https://onebuck.site" target="_blank"><button
+              class="btn btn-ghost outline">Demo</button></a>
+          <a href="https://github.com/arpittiwari24/OneBuck" target="_blank"><button
+              class="btn btn-ghost outline">Code</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-transparent border border-black">
+      <figure><img loading="lazy" src="/public/promogenie.webp" alt="Buffalo" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title ">Promogenie (Content Generator)</h2>
         <p class="">Tech Stack - NextJs, NodeJs, Tailwindcss, ExpressJs, MongoDB, Supabase, Zustand</p>
         <div class="card-actions justify-center pt-4">
           <a href="https://promogenie.xyz" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
@@ -102,10 +112,10 @@ improvement.
       </div>
     </div>
 
-    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-black border border-white">
-      <figure><img src="/public/tidyl.webp" alt="Buffalo" alt="Shoes" /></figure>
+    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-transparent border border-black">
+      <figure><img loading="lazy" src="/public/tidyl.webp" alt="Buffalo" alt="Shoes" /></figure>
       <div class="card-body">
-        <h2 class="card-title text-white">TidyL (URL Shortener)</h2>
+        <h2 class="card-title ">TidyL (URL Shortener)</h2>
         <p>Tech Stack - NextJs, NodeJs, Tailwindcss, ExpressJs, MongoDB, Supabase</p>
         <div class="card-actions justify-center pt-4">
           <a href="https://tidyl.vercel.app" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
@@ -116,10 +126,10 @@ improvement.
     </div>
 
 
-    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-black border border-white">
-      <figure><img src="/public/yournextsaas.png" alt="Buffalo" alt="Shoes" /></figure>
+    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-transparent border border-black">
+      <figure><img loading="lazy" src="/public/yournextsaas.png" alt="Buffalo" alt="Shoes" /></figure>
       <div class="card-body">
-        <h2 class="card-title text-white">YourNextSass (Nextjs Sass boilerplate)</h2>
+        <h2 class="card-title ">YourNextSass (SaaS boilerplate)</h2>
         <p>Tech Stack - NextJs, Typescript, Daisy-ui, Supabase, Postgresql, Tailwindcss, LemonSqueezy</p>
         <div class="card-actions justify-center pt-4">
           <a href="https://yournextsass.vercel.app" target="_blank"><button
@@ -131,10 +141,10 @@ improvement.
     </div>
 
 
-    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-black border border-white">
-      <figure><img src="/public/extension.webp" alt="Buffalo" alt="Shoes" /></figure>
+    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-transparent border border-black">
+      <figure><img loading="lazy" src="/public/extension.webp" alt="Buffalo" alt="Shoes" /></figure>
       <div class="card-body">
-        <h2 class="card-title text-white">Co-Chat (VS Code Extension)</h2>
+        <h2 class="card-title ">Co-Chat (VS Code Extension)</h2>
         <p>Tech Stack - Typescript, VS code api, React.js , Node.js, Gemini </p>
         <div class="card-actions justify-center pt-4">
           <a href="https://petite.onrender.com/ADWMJI" target="_blank"><button
@@ -145,39 +155,15 @@ improvement.
       </div>
     </div>
 
-    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-black border border-white">
-      <figure><img src="/public/one-buck.png" alt="Buffalo" alt="Shoes" /></figure>
+ <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-transparent border border-black">
+      <figure><img loading="lazy" src="/public/nerd.png" alt="Buffalo" alt="Shoes" /></figure>
       <div class="card-body">
-        <h2 class="card-title text-white">OneBuck</h2>
-        <p>Tech Stack - NextJs, Typescript, Tailwindcss, LemonSqueezy, Supabase </p>
-        <div class="card-actions justify-center pt-4">
-          <a href="https://onebuck.site" target="_blank"><button
-              class="btn btn-ghost outline">Demo</button></a>
-          <a href="https://github.com/arpittiwari24/OneBuck" target="_blank"><button
-              class="btn btn-ghost outline">Code</button></a>
-        </div>
-      </div>
-    </div>
- <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-black border border-white">
-      <figure><img src="/public/nerd.png" alt="Buffalo" alt="Shoes" /></figure>
-      <div class="card-body">
-        <h2 class="card-title text-white">Indecisive Nerd</h2>
+        <h2 class="card-title ">Indecisive Nerd</h2>
         <p>Tech Stack - HTML, Javascript, NodeJs, Tailwindcss, ExpressJs, MongoDB</p>
         <div class="card-actions justify-center pt-4">
           <a href="https://indecisivnerd.vercel.app" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
           <a href="https://github.com/arpittiwari24/IndecisiveNerd" target="_blank"><button
               class="btn btn-ghost outline">Code</button></a>
-        </div>
-      </div>
-    </div>
-    <div class="card card-compact max-sm:w-72 w-96 shadow-xl bg-black border border-white">
-      <figure><img src="/public/poshan.webp" alt="Buffalo" alt="Shoes" /></figure>
-      <div class="card-body">
-        <h2 class="card-title text-white">Poshan (Internship project)</h2>
-        <p>Tech Stack - ReactJs, NodeJs, Tailwindcss, ExpressJs, MongoDB</p>
-        <div class="card-actions justify-center pt-4">
-          <a href="https://poshan.in" target="_blank"><button class="btn btn-ghost outline">Demo</button></a>
-          <!-- <a href="https://github.com/arpittiwari24/todo-frontend" target="_blank"><button class="btn btn-ghost outline">Code</button></a> -->
         </div>
       </div>
     </div>
@@ -189,32 +175,28 @@ improvement.
 
   <div>
     <div class='py-8'>
-      <h1 class="text-white text-center text-3xl md:text-5xl font-bold py-10 underline">Connect With Me</h1>
+      <h3 class=" text-center text-3xl md:text-3xl font-bold md:py-2 underline">Connect With Me</h3>
     </div>
-    <div class="max-sm:flex max-sm:flex-wrap max-sm:items-center max-sm:justify-center text-center text-white pb-6">
-      <a href="https://twitter.com/arrpitttwts" target="_blank" class="text-5xl px-8  hover:animate-pulse"><i
-          class="fa-brands fa-twitter"></i></a>
-      <a href="https://github.com/arpittiwari24" target="_blank" class="text-5xl px-8  hover:animate-pulse"><i
-          class="fa-brands fa-github"></i></a>
+    <div class="max-sm:flex max-sm:flex-row max-sm:items-center max-sm:justify-center text-center  pb-6">
+      <a href="https://twitter.com/arrpitttwts" target="_blank" class="text-xl max-sm:text-sm md:px-8 px-2 btn-link">Twitter</a>
+      <a href="https://github.com/arpittiwari24" target="_blank" class="text-xl max-sm:text-sm md:px-8 px-2 btn-link">Github</a>
       <a href="https://www.linkedin.com/in/arrpit-tiwari-0447b5228/" target="_blank"
-        class="text-5xl px-8 hover:animate-pulse"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://www.instagram.com/arrpit.tiwari/" target="_blank" class="text-5xl px-8  hover:animate-pulse"><i
-          class="fa-brands fa-instagram"></i></a>
-      <a href="mailto:atofficial2410@gmail.com" target="_blank" class="text-5xl px-8  hover:animate-pulse"><i
-          class="fa-solid fa-envelope"></i></a>
+        class="text-xl  max-sm:text-sm md:px-8 px-2 btn-link">LinkedIn</a>
+      <a href="https://www.instagram.com/arrpit.tiwari/" target="_blank" class="text-xl max-sm:text-sm md:px-8 px-2 btn-link">Instagram</a>
+      <a href="mailto:atofficial2410@gmail.com" target="_blank" class="text-xl max-sm:text-sm md:px-8 px-2 btn-link">Mail</a>
     </div>
   </div>
   <hr>
   <!-- emran hashmi -->
-  <div class="flex flex-col items-center justify-center py-8">
-    <p class="text-white text-center text-3xl md:text-5xl font-bold py-10 underline">Didn't find anything useful above ?
+  <!-- <div class="flex flex-col items-center justify-center py-8">
+    <p class=" text-center text-3xl md:text-5xl font-bold py-10 underline">Didn't find anything useful above ?
     </p>
     <p class="text-xl text-center py-2">Listen to Emran Hashmi Hits and refresh your mood 😊</p>
     <iframe style="border-radius:12px"
       src="https://open.spotify.com/embed/playlist/5xrmaGmzoitYpzwzTofVDA?utm_source=generator&theme=0" width="80%"
       height="352" frameBorder="0" allowfullscreen=""
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  </div>
+  </div> -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const heroSection = document.getElementById('hero');
@@ -222,8 +204,8 @@ improvement.
       // Apply GSAP animation
       gsap.fromTo(
         heroSection,
-        { y: 30, opacity: 0 }, // Start position (slightly below with low opacity)
-        { y: 0, opacity: 1, duration: 0.75, ease: 'easeInOut' } // End position (slide up with full opacity)
+        { y: 30, opacity: 0 }, 
+        { y: 0, opacity: 1, duration: 0.15, ease: 'easeInOut' } 
       );
     });
   </script>
