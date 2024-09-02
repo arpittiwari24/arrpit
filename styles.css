@@ -1,4 +1,44 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+}
+
+/* Dark theme */
+[data-theme='dark'] {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+}
+
 body {
-  background-color: black;
-  color: white !important;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+::view-transition-group(root) {
+  animation-timing-function: var(--expo-in);
+}
+
+::view-transition-new(root) {
+  mask: url('https://media.tenor.com/Vc4w2YYFrrcAAAAi/mpl-virat-kohli.gif') center / 0 no-repeat;
+  animation: scale 3s;
+}
+
+::view-transition-old(root),
+.dark::view-transition-old(root) {
+  animation: scale 3s;
+}
+
+@keyframes scale {
+  0% {
+    mask-size: 0;
+  }
+  10% {
+    mask-size: 50vmax;
+  }
+  90% {
+    mask-size: 50vmax;
+  }
+  100% {
+    mask-size: 2000vmax;
+  }
 }
